@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+header h1 {
+    color: #005a9c; /* Un azul institucional */
+    margin-bottom: 10px;
+}
+
+.info-box {
+    background-color: #eef7ff;
+    border: 1px solid #bce0ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: #005a9c;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.info-box span {
+    font-weight: bold;
+    color: #d9534f; /* Un rojo para destacar la info */
+}
+
+.connection {
+    margin-top: 30px;
+    font-style: italic;
+    color: #555;
+}
